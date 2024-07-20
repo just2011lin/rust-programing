@@ -15,6 +15,12 @@ struct Point<T> {
     y: T,
 }
 
+impl<T> Point<T> {
+    fn x(&self) -> T {
+        self.x
+    }
+}
+
 fn fn_b() {
     let p = Point { x: 1, y: 1 };
     println!("p = ({}, {})", p.x, p.y);
@@ -28,6 +34,7 @@ enum MyOption<T> {
 
 fn fn_c() {
     let c_some = MyOption::Some("1");
+    // None未关联T，但仍需指明类型
     let c_none: MyOption<i32> = MyOption::None;
     println!("c_some is {c_some:?}, c_none is {c_none:?}");
 }
