@@ -16,14 +16,14 @@ struct Point<T> {
 }
 
 impl<T> Point<T> {
-    fn x(&self) -> T {
-        self.x
+    fn x(&self) -> &T {
+        &self.x
     }
 }
 
 fn fn_b() {
     let p = Point { x: 1, y: 1 };
-    println!("p = ({}, {})", p.x, p.y);
+    println!("p = ({}, {})", p.x(), p.y);
 }
 
 #[derive(Debug)]
