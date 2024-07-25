@@ -1,6 +1,7 @@
 fn main() {
     // ch15();
-    ch16();
+    // ch16();
+    ch17();
 }
 
 pub fn ch15() {
@@ -18,4 +19,11 @@ pub fn ch16() {
     // ch_16::ch16_01_threads::main();
     // ch_16::ch16_02_message_passing::main();
     ch_16::ch16_03_shared_state::main();
+}
+
+pub fn ch17() {
+    use rust_programing::ch17_oop as ch_17;
+    // ch_17::ch17_02_trait_objects::main();
+    // ch_17::ch17_03_oo_design_paterns::main();
+    ch_17::ch17_03_oo_design_paterns::main_a();
 }
