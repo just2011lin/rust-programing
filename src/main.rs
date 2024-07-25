@@ -1,7 +1,8 @@
 fn main() {
     // ch15();
     // ch16();
-    ch17();
+    // ch17();
+    ch19();
 }
 
 pub fn ch15() {
@@ -26,4 +27,10 @@ pub fn ch17() {
     // ch_17::ch17_02_trait_objects::main();
     // ch_17::ch17_03_oo_design_paterns::main();
     ch_17::ch17_03_oo_design_paterns::main_a();
+}
+
+pub fn ch19() {
+    use rust_programing::ch19_advanced_features as ch_19;
+    // ch_19::ch19_01_unsafe_rust::main_naked();
+    ch_19::ch19_01_unsafe_rust::main_unsafe_fn();
 }
