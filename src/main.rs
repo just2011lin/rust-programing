@@ -32,5 +32,15 @@ pub fn ch17() {
 pub fn ch19() {
     use rust_programing::ch19_advanced_features as ch_19;
     // ch_19::ch19_01_unsafe_rust::main_naked();
-    ch_19::ch19_01_unsafe_rust::main_unsafe_fn();
+    // ch_19::ch19_01_unsafe_rust::main_unsafe_fn();
+    // ch_19::ch19_01_unsafe_rust::main_split();
+    // ch_19::ch19_01_unsafe_rust::main_c();
+    // ch_19::ch19_02_advanced_traits::main_add();
+    // ch_19::ch19_02_advanced_traits::main_meters();
+    // ch_19::ch19_02_advanced_traits::main_fly();
+    // ch_19::ch19_02_advanced_traits::main_baby_name();
+    // ch_19::ch19_02_advanced_traits::main_outline_print();
+    // ch_19::ch19_02_advanced_traits::main_wrapper();
+    // ch_19::ch19_04_advanced_functions_and_clourses::main_fn();
+    ch_19::ch19_05_macros::main_my_vec();
 }
