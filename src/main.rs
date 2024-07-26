@@ -49,5 +49,7 @@ pub fn ch19() {
 pub fn my_try() {
     use rust_programing::my_try;
     // my_try::let_vs_if_let::main_let();
-    my_try::let_vs_if_let::main_if_let();
+    // my_try::let_vs_if_let::main_if_let();
+    my_try::move_and_self::main_move();
+    my_try::move_and_self::main_take();
 }
