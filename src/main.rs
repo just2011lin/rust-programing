@@ -47,9 +47,12 @@ pub fn ch19() {
 }
 
 pub fn my_try() {
-    use rust_programing::my_try;
+    use rust_programing::ch21_ownership;
     // my_try::let_vs_if_let::main_let();
     // my_try::let_vs_if_let::main_if_let();
-    my_try::move_and_self::main_move();
-    my_try::move_and_self::main_take();
+    // ch21_ownership::move_and_self::main_move();
+    // ch21_ownership::move_and_self::main_take();
+    // ch21_ownership::ref_and_move::main_use_range();
+    // ch21_ownership::move_operation::move_with_let();
+    ch21_ownership::move_operation::move_with_if_let();
 }
