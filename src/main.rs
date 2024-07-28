@@ -3,7 +3,8 @@ fn main() {
     // ch16();
     // ch17();
     // ch19();
-    my_try();
+    // ch21();
+    ch22();
 }
 
 pub fn ch15() {
@@ -46,7 +47,7 @@ pub fn ch19() {
     ch_19::ch19_05_macros::main_my_vec();
 }
 
-pub fn my_try() {
+pub fn ch21() {
     use rust_programing::ch21_ownership;
     // my_try::let_vs_if_let::main_let();
     // my_try::let_vs_if_let::main_if_let();
@@ -54,5 +55,40 @@ pub fn my_try() {
     // ch21_ownership::move_and_self::main_take();
     // ch21_ownership::ref_and_move::main_use_range();
     // ch21_ownership::move_operation::move_with_let();
-    ch21_ownership::move_operation::move_with_if_let();
+    // ch21_ownership::move_operation::move_with_if_let();
+    // ch21_ownership::ch21_01_auto_move::main_copy_tuple();
+    // ch21_ownership::ch21_01_auto_move::main_copy_struct();
+    ch21_ownership::ch21_01_auto_move::main_copy_arr();
+}
+
+pub fn ch22() {
+    use rust_programing::ch22_data_type as ch22;
+
+    // ch22::ch22_01_scalar::main_integer();
+    // ch22::ch22_01_scalar::main_float();
+    // ch22::ch22_01_scalar::main_bool();
+    // ch22::ch22_01_scalar::main_char();
+
+    // ch22::ch22_02_tuple::main_tuple();
+
+    // ch22::ch22_03_array::main_array();
+
+    // ch22::ch22_04_fn::main_assign_fn();
+
+    // ch22::ch22_05_reference::main();
+
+    // ch22::ch22_06_struct::main_normal_struct();
+    // ch22::ch22_06_struct::main_tuple_struct();
+    // ch22::ch22_06_struct::main_unit_struct();
+
+    // ch22::ch22_07_enum::main_no_value_enum();
+    // ch22::ch22_07_enum::main_with_value_enum();
+
+    // ch22::ch22_08_mod::main();
+
+    // ch22::ch22_09_vec_string_hashmap::main_vec();
+    // ch22::ch22_09_vec_string_hashmap::main_string();
+    // ch22::ch22_09_vec_string_hashmap::main_hash_map();
+
+    ch22::ch22_10_clourse::main();
 }
