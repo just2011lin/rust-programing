@@ -8,3 +8,4 @@ pub mod ch22_07_enum;
 pub mod ch22_08_mod;
 pub mod ch22_09_vec_string_hashmap;
 pub mod ch22_10_clourse;
+pub mod ch22_11_smart_ppointers;
