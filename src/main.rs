@@ -3,8 +3,8 @@ fn main() {
     // ch16();
     // ch17();
     // ch19();
-    // ch21();
-    ch22();
+    ch21();
+    // ch22();
 }
 
 pub fn ch15() {
@@ -58,7 +58,8 @@ pub fn ch21() {
     // ch21_ownership::move_operation::move_with_if_let();
     // ch21_ownership::ch21_01_auto_move::main_copy_tuple();
     // ch21_ownership::ch21_01_auto_move::main_copy_struct();
-    ch21_ownership::ch21_01_auto_move::main_copy_arr();
+    // ch21_ownership::ch21_01_auto_move::main_copy_arr();
+    ch21_ownership::ch21_02_re_set::main();
 }
 
 pub fn ch22() {
